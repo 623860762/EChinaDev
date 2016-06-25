@@ -1,0 +1,30 @@
+@charset "utf-8";
+.news_content_div{
+	width:1019px;
+	height:600px;
+	position:relative;
+	left:1px;
+}
+.news_content_line{
+	width:1012px;
+	height:600px;
+	border-left:3px solid #0063B9;
+	border-right:3px solid #0063B9;
+	border-bottom:3px solid #0063B9;
+	float:left;
+}
+.error_word_position{
+	margin-top:140px;
+	margin-left:190px;
+	width:250px;
+	text-align:left;
+}
+.error_img{
+	position:relative;
+	background:url(../images/bg_fault.png) no-repeat;
+	width:130px;
+	height:100px;
+	top:233px;
+	left:-100px;
+}
+.font01{color:#665855;line-height:30px;font-family: "Microsoft Yahei" "微软雅黑";font-size:16px;font-weight:bold;}

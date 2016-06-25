@@ -1,0 +1,60 @@
+/*body {font: 12px/20px Arial,Tahoma,Helvetica,'微软雅黑','宋体',sans-serif;background:#fff;color:#212629;
+		height:auto;margin-top:0,auto;margin-left:0;padding:0;
+		}*/
+body
+{
+	font: 12px/20px Arial,Tahoma,Helvetica,'微软雅黑','宋体',sans-serif;
+	font:'宋体';
+	font-size: 12px;
+	color:#212629;
+	margin-top:0; margin-bottom:0; margin-left:0; margin-right:0;
+	border-width:0;
+	padding: 0px;
+	background:#fff;
+}
+table{font-size:inherit;*border-collapse:collapse;*empty-cells:show;font-size:12px;}
+table td{word-break:break-all;word-wrap:break-word;}
+html,body,div,form,p,h3,h4,ul,li,a,b,span,input,label,img,i,h1,h2,h3,h4,h5,h6,dl,dt,dd,iframe{ margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:14px;font-weight:normal;}
+/*谷歌下input背景颜色成黄色的解决方案*/
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px white inset;}
+b{font-weight:normal;}
+input,button{ outline:none; -moz-outside:none;}
+button::-moz-focus-inner,input::-moz-focus-inner{ border:0px;}
+input {blr:e­xpression(/*去除点击按钮时的虚线*/
+this.onFocus=this.blur())} /*for IE*/ 
+input {outline:}/*for FireFox*/ 
+img{border:none;}
+ul,li{ list-style:none outside none;}
+/*默认<a href="#">超链接样式*/
+a{outline: none;cursor:pointer;}
+a:active {star:expression(this.onFocus=this.blur());}
+a:focus { outline:0;}
+a:hover,a:focus,a:link,a:visited{text-decoration: none;color:#212629}
+
+/*----------------自定义table样式1---------------*/
+.news_table_detail{
+	border:1px solid #DDDDDD;
+}
+.news_table_detail tr{
+	height:30px;
+	line-height:30px;
+}
+.news_table_detail td{
+	padding-left:7px;
+}
+/*--------------通用分页样式-------------*/
+.fenye_span_content{
+	display:block;
+	float:left;
+	width:100%;
+	height:27px;
+	line-height:27px;
+	border:1px solid #DDDDDD;
+	background-color:#F6F5F5;
+}
+.last_next_page{
+	margin-left:20px;
+	margin-right:20px;
+}
+/*-------------超链接字体样式-------------*/

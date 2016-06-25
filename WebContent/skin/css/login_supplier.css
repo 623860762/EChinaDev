@@ -1,0 +1,147 @@
+@charset "utf-8";
+/*-------------------login_supplier------------------*/
+.img_logo_div{
+	display:block;
+	width:1019px;
+}
+.login_logo{
+	text-align:left;
+	float:left;
+	display:block;
+	width:1019px;
+	margin-top:13px;
+	height:73px;
+}
+.login_img{
+	float:left;
+	display:block;
+	width:1019px;
+	height:334px;
+	background:url(../images/login.png) no-repeat;
+	position:relative;
+}
+.login_bottom{
+	padding-left:9px;
+	margin-top:10px;
+	width:1010px;
+	display:block;
+	float:left;
+	text-align:left;
+	background-color:#00A0DC;
+	height:30px;
+	line-height:30px;
+}
+.login_box{
+	display:block;
+	position:relative;
+	width:215px;
+	height:272px;
+	left:225px;
+	top:13px;
+}
+.input_user{
+	height:25px;
+	line-height:25px;
+	border-top:1px solid #65B9EA;
+	border-right:1px solid #65B9EA;
+	border-bottom:1px solid #65B9EA;
+	border-left:none;
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px;
+	float:right;
+	width:162px;
+}
+.span_login_img{
+	height:25px;
+	line-height:25px;
+	border-left:1px solid #65B9EA;
+	border-top:1px solid #65B9EA;
+	border-bottom:1px solid #65B9EA;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	width:21px;
+	float:left;
+	background:url(../images/user_pass_icons.png) no-repeat;
+}
+.user_icon_position{
+	background-position:left -22px;
+}
+.pass_icon_position{
+	background-position:left top;
+}
+.input_confirmWord{
+	float:left;
+	width:90px;
+	height:25px;
+	line-height:25px;
+	border:1px solid #65B9EA;
+	border-radius:3px;
+	padding-left:4px;
+}
+.change_word{
+	float:right;
+	color:#2A99D9;
+	margin-right:5px;
+	
+}
+.button_login{
+	border-radius:3px;
+	background-color:#0168B7;
+	width:180px;
+	height:26px;
+	border:none;
+}
+.user_div{
+	width:185px;
+	height:27px;
+	line-height:27px;
+	margin-top:46px;
+}
+.pass_div{
+	width:185px;
+	height:27px;
+	line-height:27px;
+	margin-top:10px;
+}
+.confirm_img{
+	height:27px;
+	line-height:27px;
+	float:right;
+	width:80px;
+}
+.login_but_div{
+	width:185px;
+	height:27px;
+	line-height:27px;
+	margin-top:40px;
+}
+.remeber_pass_div{
+	width:185px;
+	height:27px;
+	line-height:27px;
+	margin-top:0px;
+}
+.login_but_div{
+	color:#ffffff;
+	width:185px;
+	height:27px;
+	line-height:27px;
+	margin-top:18px;
+}
+.regist_div{
+	color:#ffffff;
+	width:185px;
+	height:27px;
+	line-height:27px;
+	margin-top:26px;
+}
+.regist_a{
+	display:inline-block;
+	float:left;
+}
+.forget_a{
+	display:inline-block;
+	float:right;
+	
+}
+/*-------------------login_supplier end------------------*/

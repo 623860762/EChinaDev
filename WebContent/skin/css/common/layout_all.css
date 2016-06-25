@@ -1,0 +1,265 @@
+@charset "utf-8";
+/*-------------------通用布局------------------*/
+/*顶部工具栏*/
+.top_tool_logo{
+	width:1021px;
+	height:83px;
+}
+.search_div{
+	float:right;
+	height:30px;
+	width:259px;
+	margin-top:19px;
+}
+.search_input{
+	float:left;
+	display:block;
+	width:180px;
+	height:28px;
+	padding-left:5px;
+	padding-right:5px;
+	line-height:28px;
+	border:1px solid #EAEAEA;
+}
+.search_img{
+	float:left;
+	width:67px;
+	height:30px;
+	display:block;
+	background:url(../../images/search.png) no-repeat left top;
+
+}
+/*登陆图片轮转*/
+.login_banner{
+	height:227px;
+}
+.regist_top{
+	display:block;
+	float:left;
+	width:178px;
+	height:228px;
+}
+.regist_img{
+	display:block;
+	float:left;
+	width:222px;
+	height:37px;
+	margin-top:9px;
+	margin-left:63px;
+}
+.regist_bg{
+	background:url(../../images/bg1.png) no-repeat left top;
+}
+.regist_bg_icon{
+	background:url(../../images/regist_login.png) no-repeat;
+}
+.supplier_icon{background-position:left top;}
+.bid_icon{background-position:left -22px;}
+.expert_icon{background-position:left -47px;}
+.buy_icon{background-position:left -69px;}
+.user_icon{background-position:left -93px;}
+.info_icon{background-position:left -116px;}
+.regist_bg_common{
+	background:url(../../images/head_background.png) repeat-x;
+}
+.regist_top li a{
+	display:block;
+	width:110px;
+	height:35px;
+	float:left;
+	text-align:left;
+	margin-left:4px;
+}
+.regist_top li{
+	float:left;
+	margin-left:8px;
+	margin-top:7px;
+	height:35px;
+	width:159px;
+	line-height:35px;
+	color:#016EC0;font-size:14px;font-weight:bold;
+	border:1px solid #EAEAEA;
+}
+.regist_top li span{
+	display:block;
+	margin-top:6px;
+	margin-left:10px;
+	float:left;
+	width:30px;
+	height:23px;
+}
+.login_banner_register{
+	display:block;
+	float:left;
+	height:227px;
+	width:178px;
+	border:1px solid #EAEAEA;
+	
+}
+.login_banner_imges{
+	position:relative;
+	display:block;
+	float:left;
+	margin-left:8px;
+	height:227px;
+	width:829px;
+	border:1px solid #EAEAEA;
+	
+}
+/*图片轮转css*/
+.login_banner_imges ul{
+	width:829px;
+	height:227px;
+}
+#im1{position:absolute;left:0px;top:0px;display: none;}
+#im2{position:absolute;left:0px;top:0px;display: none;}
+#im6{position:absolute;left:0px;top:0px;display: none;}
+#im4{position:absolute;left:0px;top:0px;display: none;}
+#im5{position:absolute;left:0px;top:0px;display: none;}
+#im3{position:absolute;left:0px;top:0px;}
+.leftButton{
+	position: absolute;
+	z-index:2;
+	left:0px;
+	top:84px;
+	width:34px;
+	height:52px;
+	background:url(../../images/banner_arrow.png) no-repeat;
+	background-position:left top;
+	overflow:hidden;
+}
+.rightButton{
+	position:absolute;
+	z-index:2;
+	left:795px;
+	top:84px;
+	width:34px;
+	height:52px;
+	background:url(../../images/banner_arrow.png) no-repeat;
+	background-position:left -52px;
+	overflow:hidden;
+}
+/*----------------*/
+/*导航工具条*/
+.navi_tool{
+	height:44px;
+	background:#0063B9;
+}
+.navi_tool ul li{
+	float:left;
+	line-height:44px;
+	color:#FFFFFF;
+}
+.navi_tool ul li a{
+	font-size:14px;
+	height:44px;
+	display:inline-block;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+}
+.navi_tool ul li a:hover{
+	background:#E70012;
+	color:#FFFFFF;
+}
+.navi_logo_img{
+	float:left;
+	display:inline-block;
+	width:65px;
+	height:44px;
+	background:url(../../images/navi_logo.png) no-repeat;
+	
+}
+.navi_more_div{
+	height:44px;width:80px;float:right;color:#FFFFFF;
+}
+.navi_more_div a{
+	height:44px;
+	line-height:44px;
+	display:inline-block;
+	float:left;
+	margin-top:2px;
+}
+.navi_more_icon{
+	display:inline-block;
+	float:left;
+	margin-top:16px;
+	height:13px;
+	width:13px;
+	background:url(../../images/more_tria.png) no-repeat;
+}
+/*页面bottom*/
+.bottom_info{
+	left:50%;
+	margin-left:-510px;
+	position:absolute;
+	height:221px;
+	align:center;
+}
+.energy_logo_posion{
+	width:100%;
+	height:51px;
+	border:1px solid red;
+	position:relative;
+	top:111px;
+}
+.bottom_words{
+	color:#ffffff;
+	font-size:12px;
+	margin-top:41px;
+	float:left;
+}
+.bottom_words p{
+	display:block;
+	text-align:left;
+	height:25px;
+	line-height:25px;
+}
+.bottom_info_div{
+	width:100%;
+	background-color:#0270C5;
+	height:164px;
+}
+/*news_details页面bottom*/
+.news_detail_bottom{
+	width:1012px;
+	height:76px;
+}
+.news_detail_words{
+	margin-top:8px;
+	float:left;
+	margin-left:174px;
+}
+/*所有页面logo_all样式*/
+.logo_all_div{
+	height:85px;
+	width:1074px;
+}
+/*-------------------通用样式------------------*/
+/*常用宽、高度样式*/
+.w1019{
+	width:1019px;
+}
+/*margin等样式*/
+.margin_top20{
+	margin-top:13px;
+}
+/*是否显示*/
+/*-------------超链接字体样式-------------*/
+a.navi_font_class{
+	color:#ffffff;
+}
+a.navi_font_class:hover{
+	color:#ffffff;
+}
+a.head_more{
+}
+a.head_more:hover{
+	color:#366EC0
+}
+a.regist_login_a{
+	color:#016EC0;
+}
+a.regist_login_a:hover{
+	color:#212629;
+}

@@ -1,0 +1,374 @@
+@charset "utf-8";
+/*-------------------index布局------------------*/
+/*招标-开标-系统公告*/
+.bidHall_sysPub{
+	height:276px;
+	border-left:1px solid #EAEAEA;
+	border-right:1px solid #EAEAEA;
+}
+.bidHall_div{
+	display:block;
+	float:left;
+	width:388px;
+	height:276px;
+	border-right:1px solid #EAEAEA;
+	border-top:1px solid #EAEAEA;
+	border-bottom:1px solid #EAEAEA;
+}
+.openBid_div{
+	margin-left:10px;
+	display:block;
+	float:left;
+	width:388px;
+	height:276px;
+	border:1px solid #EAEAEA;
+}
+.sys_pub_all{
+	margin-left:10px;
+	display:block;
+	float:left;
+	width:219px;
+	height:276px;
+	border-left:1px solid #EAEAEA;
+	border-top:1px solid #EAEAEA;
+	border-bottom:1px solid #EAEAEA;
+}
+.bid_hall_head_div{
+	height:35px;width:388px;border-bottom:1px solid #EAEAEA;line-height:35px;background:url(../images/head_background.png) repeat-x;
+}
+.sys_pub_all_head1{
+	height:35px;width:219px;border-bottom:1px solid #EAEAEA;display:block;float:left;line-height:35px;background:url(../images/head_background.png) repeat-x;
+}
+.bid_hall_cont_div{
+	width:388px;
+	height:238px;
+	display:block;
+}
+.bid_hall_cont_news{
+	float:left;
+	border-top:1px solid #011B92;
+	width:388px;
+	height:201px;
+	display:block;
+}
+.cont_news_lasTime{
+	float:left;
+	padding-top:11px;
+	width:388px;
+	height:292px;
+}
+.cont_news_lasTime li{
+	width:378px;float:left;display:inline-block;;line-height:25px;height:25px;overflow:hidden;padding-left:9px;;
+}
+.cont_news_lasTime span{
+	float:left;
+	display:inline;
+	width:123px;
+	text-align:left;
+	padding-left:6px;
+}
+.new_hall_overhidden{
+	float:left;display:inline-block;width:246px;overflow:hidden;text-align:left;white-space:nowrap;word-break:keep-all;text-overflow:ellipsis;
+}
+.supp_cont_img{
+	display:block;
+	float:left;
+	width:219px;
+	height:241px;
+}
+.supp_cont_img ul{
+	margin-top:4px;
+}
+.supp_cont_img li{
+	margin-left:12px;
+	margin-top:8px;
+	width:90px;
+	height:35px;
+	float:left;
+}
+.friendHref_cont_img{
+	display:block;
+	float:left;
+	width:219px;
+	height:163px;
+}
+.friendHref_cont_img ul{
+	margin-top:9px;
+}
+.friendHref_cont_img li{
+	margin-left:12px;
+	margin-top:8px;
+	width:90px;
+	height:35px;
+	float:left;
+}
+.select_friend_href{
+	width:176px;margin-left:10px;margin-top:8px;
+	border:1px solid #EAEAEA;
+}
+.sys_pub_all_head2{
+	height:35px;width:219px;border-top:1px solid #EAEAEA;border-bottom:1px solid #EAEAEA;display:block;float:left;line-height:35px;background:url(../images/head_background.png) repeat-x;
+}
+.sys_pub_all_conet1{
+	width:219px;height:101px;display:block;float:left;
+}
+.sys_pub_all_conet2{
+	width:219px;height:102px;display:block;float:left;
+}
+.head_span{
+	display:block;
+	width:100%;
+	height:35px;
+	line-height:35px;
+}
+.head_ul_blueIcon{
+	margin-left:9px;
+	float:left;
+	margin-top:10px;
+	width:21px;
+	height:13px;
+	display:block;
+	background:url(../images/red_blue_dom.png) no-repeat;
+	background-position:left -13px;
+}
+.head_ul_sysPubIcon{
+	margin-left:9px;
+	float:left;
+	margin-top:8px;
+	width:21px;
+	height:19px;
+	display:block;
+	background:url(../images/right_icon_red.png) no-repeat;
+	background-position:left top;
+}
+.head_ul_laws_Icon{
+	margin-left:9px;
+	float:left;
+	margin-top:9px;
+	width:21px;
+	height:19px;
+	display:block;
+	background:url(../images/right_icon_red.png) no-repeat;
+	background-position:left -17px;
+}
+.h1_font{
+	float:left;margin-left:4px;color:#016EC0;font-size:14px;font-weight:bold;
+}
+.sys_pub_content{
+	margin-top:12px;
+	overflow:hidden;
+}
+.sys_pub_content a{float:left;display:inline;width:190px;overflow:hidden;text-align:left;white-space:nowrap;word-break:keep-all;text-overflow:ellipsis;}
+.sys_pub_content li{
+	height:25px;
+	line-height:25px;
+	padding-left:12px;
+	text-align:left;
+}
+/*三个图片广告样式*/
+.three_banner1{
+	height:98px;
+}
+.three_ad1_img1{
+	display:block;
+	float:left;
+	width:387px;
+	height:98px;
+	border:1px solid #EAEAEA;
+}
+.three_ad1_img2{
+	margin-left:10px;
+	display:block;
+	float:left;
+	width:388px;
+	height:98px;
+	border:1px solid #EAEAEA;
+}
+.three_ad1_img3{
+	margin-left:10px;
+	display:block;
+	float:left;
+	width:218px;
+	height:98px;
+	border:1px solid #EAEAEA;
+}
+.three_banner2{
+	height:98px;
+}
+/*招标公告-推荐供应商*/
+.bidPub_supplier{
+	height:277px;
+}
+.bidPub_tabs{
+	display:block;
+	float:left;
+	width:787px;
+	height:277px;
+}
+.bidPub_supplier_div{
+	margin-left:11px;
+	display:block;
+	float:left;
+	width:219px;
+	height:184px;
+	border:1px solid #EAEAEA;
+}
+.bidPub_supplier_img{
+	margin-left:11px;
+	display:block;
+	float:left;
+	width:219px;
+	overflow:hidden;
+	border-bottom:1px solid #EAEAEA;
+	border-left:1px solid #EAEAEA;
+	border-right:1px solid #EAEAEA;
+}
+.head_ul_supplier_Icon{
+	margin-left:9px;
+	float:left;
+	margin-top:7px;
+	width:21px;
+	height:19px;
+	display:block;
+	background:url(../images/right_icon_red.png) no-repeat;
+	background-position:left -34px;
+}
+/*下载专区*/
+.download_href{
+	height:187px;
+}
+.supplier_div{
+	display:block;
+	float:left;
+	width:261px;
+	height:187px;
+	border:1px solid #EAEAEA;
+}
+.download_div{
+	display:block;
+	float:left;
+	width:262px;
+	height:187px;
+	border-right:1px solid #EAEAEA;
+	border-top:1px solid #EAEAEA;
+	border-bottom:1px solid #EAEAEA;
+}
+.question_div{
+	display:block;
+	float:left;
+	width:261px;
+	height:187px;
+	border-right:1px solid #EAEAEA;
+	border-top:1px solid #EAEAEA;
+	border-bottom:1px solid #EAEAEA;
+}
+.friend_href_div{
+	display:block;
+	float:left;
+	width:219px;
+	height:187px;
+	margin-left:10px;
+	border:1px solid #EAEAEA;
+}
+.download_all_head{
+	height:35px;width:261px;border-bottom:1px solid #EAEAEA;display:block;float:left;line-height:35px;background:url(../images/head_background.png) repeat-x;
+}
+.head_ul_friendHref_Icon{
+	margin-left:9px;
+	float:left;
+	margin-top:7px;
+	width:21px;
+	height:19px;
+	display:block;
+	background:url(../images/right_icon_red.png) no-repeat;
+	background-position:left -52px;
+}
+.head_download_supplier_Icon{
+	margin-left:9px;
+	float:left;
+	margin-top:7px;
+	width:21px;
+	height:19px;
+	display:block;
+	background:url(../images/bottom_icon_red.png) no-repeat;
+	background-position:left -1px;
+}
+.head_download_Icon{
+	margin-left:9px;
+	float:left;
+	margin-top:7px;
+	width:21px;
+	height:19px;
+	display:block;
+	background:url(../images/bottom_icon_red.png) no-repeat;
+	background-position:left -23px;
+}
+.head_download_question_Icon{
+	margin-left:9px;
+	float:left;
+	margin-top:7px;
+	width:21px;
+	height:19px;
+	display:block;
+	background:url(../images/bottom_icon_red.png) no-repeat;
+	background-position:left -46px;
+}
+.h1_font_down{
+	float:left;margin-left:4px;font-size:14px;font-weight:bold;
+}
+.head_span_bottom{
+	display:block;
+	width:100%;
+	height:35px;
+	line-height:35px;
+}
+.supplier_down_quest_news{
+	height:163px;
+	width:261px;
+	float:left;
+	display:block;
+}
+.supplier_down_quest_news ul{
+	margin-top:38px;
+}
+.supplier_down_quest_news li{
+	float:left;
+	margin-left:13px;
+	border-bottom:1px dashed #EAEAEA;
+	line-height:35px;
+	height:35px;
+	width:110px;
+}
+/*-------------------index样式------------------*/
+/*tab切换样式*/
+.clearfix:after {content: "."; display: block;height: 0; clear: both; visibility: hidden;}
+.clearfix{zoom:0;}
+.hold-news1{border-left:1px solid #e0e0e0;border-right:1px solid #e0e0e0;background:url(../images/webicon.png) repeat-x left -113px;}
+.hold-news1 li{font-size:14px;font-weight:bold;color:#016EC0;background:url(../images/head_background.png) left 1px repeat-x;float:left;display:inline-block;padding:0 14px;line-height:37px;border-right:1px solid #e0e0e0;cursor:pointer;}
+.hold-news1 li.active{background:url(../images/webicon.png) no-repeat center -150px;color:red;}
+.hold-news1 a{display:none;position:absolute;right:14px;top:0;}
+.hold-news1 li.active a{display:inline-block;}
+.hold-news1 li.active span{margin-right:6px;margin-top:10px;float:left;display:inline-block;width:21px;height:13px;background:url(../images/red_blue_dom.png) no-repeat left -13px;}
+
+.hold-news{background-color:#E9EEF2;}
+.hold-news li{background-color:#E9EEF2;width:100px;float:left;display:inline-block;padding:0 14px;line-height:37px;cursor:pointer;}
+.hold-news li.active{background-color:#E9EEF2;color:red;}
+.hold-news a{display:none;position:absolute;right:14px;top:0;}
+.hold-news li.active a{display:inline-block;}
+.hold-news li.active span{margin-left:16px;margin-top:13px;float:left;display:inline-block;width:9px;height:8px;background:url(../images/content_tira_red.png) no-repeat left top;}
+.hold-news li span{margin-left:16px;margin-top:13px;float:left;display:inline-block;width:9px;height:8px;background:url(../images/content_tira_red.png) no-repeat left -8px;}
+/*--end tab切换样式*/
+.tab_left{float:left;width:788px;position:relative;background:url(../images/newsline.jpg) no-repeat center 52px;
+}
+.tab_left_bottom{float:left;width:786px;height:240px;border-collapse:collapse;border-left:1px solid #E0E0E0;border-right:1px solid #E0E0E0;border-bottom:1px solid #E0E0E0;
+}
+/*leftnews招标信息*/
+.left_news{float:left;padding-top:9px;width:697px;height:213px;}
+.lfnewsbox{width:696px;height:209px;padding:13px 0 0 14px;border:1px solid #e0e0e0;border-top:none;overflow:hidden;background:url(../images/newsline.jpg) no-repeat center center;}
+.lfnews{margin-top:10px;margin-left:17px;width:756px;display:none;}
+.lfnews li{width:345px;float:left;display:inline;line-height:25px;height:25px;overflow:hidden;padding-left:9px;background:url(../images/webicon.png) no-repeat left -88px;}
+.lfnews li span{float:right;display:inline;color:#999;margin-right:0px;}
+.lfnews li a{float:left;display:inline;width:226px;overflow:hidden;text-align:left;white-space:nowrap;word-break:keep-all;text-overflow:ellipsis;}
+.li_margin_left{
+	margin-left:40px;
+}
